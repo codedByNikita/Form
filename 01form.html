@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body {
+            margin: 10px 300px;
+            background: rgb(2, 18, 140);
+        }
+        
+        form {
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        button {
+            border-radius: 5px;
+            box-sizing: 60px;
+        }
+    </style>
+</head>
+
+<!-- Form start-->
+
+<body>
+    <form style="background: rgb(80, 63, 119);" colspan="40">
+
+        <!-- Heading start-->
+
+        <center>
+            <h1>Beginner Survey Form</h2>
+        </center>
+
+        <!-- FIRST BOX START-->
+
+        <fieldset style="border-color: rgb(47, 153, 234);">
+
+            <legend>
+                <Big>Personal Details
+            </legend>
+            <label> Name :</label>
+            <input type=" text " placeholder="Enter your name "><br><br>
+
+            <label>Address :</label>
+            <input type="text " placeholder="Enter your Address ">
+            <br><br>
+            <label>Email :</label>
+            <input type="email " placeholder="Enter your Email "><br><br>
+
+            <label>Number :</label>
+            <input type="+tel " placeholder="Enter your Number ">
+            <br><br><label>Please  select  your  gender :</label>
+            <br><br><input type="radio" name="age"><label>Male</label>
+            <br><br><input type="radio" name="age"><label>Female</label> <br><br>
+            <input type="radio" name="age"><label>Non-binary</label> 
+            <br><br><input type="radio" name="age"><label>Prefer not to say</label> </fieldset>
+       </big>
+
+                <!-- SECOND BOX START-->
+                <big>
+           <fieldset style="border-color: rgb(47, 153, 234);">
+              <legend> Additional Information</legend><label for="background-info ">Enter Your Background Information</label><br><br>
+              <textarea id="background-info " name="background-info " placeholder="Enter Your Background Information " rows="10 " cols=100%></textarea>
+            </fieldset>
+            </big><br />
+                <!-- button create-->
+
+                <center><button type="submit ">Submit</button></center>
+    </form>
+
+</body>
+
+</html>
